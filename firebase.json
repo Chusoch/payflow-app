@@ -1,0 +1,25 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "payflow-dev-4fd8d",
+          "appId": "1:850087276276:android:7a56430198554334c238a1",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "payflow-dev-4fd8d",
+          "configurations": {
+            "android": "1:850087276276:android:7a56430198554334c238a1",
+            "web": "1:850087276276:web:6a527cfb17e4e46ac238a1"
+          }
+        }
+      }
+    }
+  }
+}

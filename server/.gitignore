@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.local
+*.log
+
+# Firebase & GCP Service Account Keys (NEVER commit credentials)
+*firebase-adminsdk*.json
+*service-account*.json
+*serviceAccountKey*.json
+serviceAccountKey.json
+secrets/*.json
+credentials/*.json
+*.key.json
+
